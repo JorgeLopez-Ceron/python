@@ -24,6 +24,7 @@ class Television:
     def mute(self):
         if not self.__muted:
             self.__muted = True
+            self.__volume = 0
         elif self.__muted:
             self.__muted = False
 
@@ -92,4 +93,5 @@ tv_1.volume_up()
 tv_1.volume_up()
 tv_1.channel_down()
 tv_1.channel_down()
+tv_1.mute()
 print(tv_1)
