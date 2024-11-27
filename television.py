@@ -19,7 +19,7 @@ class Television:
         self.__volume = self.MIN_VOLUME
         self.__channel = self.MIN_CHANNEL
         self.__old_volume = self.__volume
-    #turns tv on and off
+
     def power(self) -> None:
         """turns the tv on and off
 
